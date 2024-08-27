@@ -348,7 +348,7 @@ button:focus{
 	background: #000000;
 	display: block;
 	width: 25px;
-	height: 2px;
+	height: 3px;
 	margin: 0 auto;
 		margin-top: 0px;
 	-webkit-border-radius: 1px;
@@ -808,12 +808,90 @@ button:focus{
 
 }
 
+
+/*------------------------------------------------------------------
+    Padrinos
+-------------------------------------------------------------------*/
+
+.padrinos-box{
+	padding: 70px 0px;
+	background: url(../images/ptn-bg.jpg); 
+}
+
+.single-team-member {
+    position: relative;
+    margin-top: 30px;
+	border: 10px solid #fff;
+	box-shadow: 0 2px 5px rgba(0,0,0,.1);
+}
+.padrinos-img{
+	position: relative;
+}
+.padrinos-img::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    content: '';
+    -webkit-transition: .3s;
+    transition: .3s;
+    opacity: 0;
+    background-color: #535c68;
+}
+.padrinos-info{
+	padding: 25px 30px;
+	background-color: #B5c6b4;
+	text-align: center;
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	width: auto;
+	z-index: 7;
+	opacity: 0;
+	visibility: hidden;
+	right: 15px;
+	text-align: center;
+	margin: 0 auto;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+
+.single-team-member:hover .padrinos-info{
+	bottom: 0;
+	opacity: 1;
+	visibility: visible;
+}
+
+.padrinos-info h4{
+	font-family: 'Dancing Script', cursive;
+	font-size: 24px;
+	color: #ffffff;
+}
+.padrinos-info p{
+	margin: 0px;
+	font-size: 18px;
+	color: #ffffff;
+}
+.title h2{
+	color: #ffffff;
+	padding: 10px 0px;
+	
+
+}
+
+
 /*------------------------------------------------------------------
     Gallery
 -------------------------------------------------------------------*/
 
 .gallery-box{
 	padding: 60px 0px;
+	/* background: url(../images/ptn-bg.jpg); */
 }
 
 .gallery-box ul{}
@@ -1005,6 +1083,7 @@ button:focus{
 
 .contact-box{
 	padding: 70px 0px;
+	
 }
 .contact-block{}
 
