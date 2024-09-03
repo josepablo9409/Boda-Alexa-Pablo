@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css?family=Engagement');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*------------------------------------------------------------------
     IMPORT FILES
@@ -891,10 +892,8 @@ button:focus{
 
 .gallery-box{
 	padding: 60px 0px;
-	/* background: url(../images/ptn-bg.jpg); */
 }
 
-.gallery-box ul{}
 .gallery-box ul li{
 	position: relative;
 	width: 25%;
@@ -1075,6 +1074,15 @@ button:focus{
 }
 .event-inner a:hover{
 	background: #63c7bd;
+}
+
+.event-inner h2{
+	font-size: 30px;
+}
+
+.event-inner p{
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
 }
 
 /*------------------------------------------------------------------
