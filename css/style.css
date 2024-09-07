@@ -585,7 +585,9 @@ button:focus{
 .about-main-info{
 	margin-bottom: 30px;
 }
-
+.about-main-info p{
+	font-family: "Montserrat", sans-serif;
+}
 .about-m{
 	background: #B5c6b4;
 	padding: 0px 30px;
@@ -640,6 +642,9 @@ button:focus{
 
 .story-box{
 	padding: 70px 0px;
+}
+.story-box p{
+	font-family: "Montserrat", sans-serif;
 }
 
 .align-left {
@@ -742,6 +747,9 @@ button:focus{
 	padding: 70px 0px;
 	background: url(../images/ptn-bg.jpg);
 }
+.family-box p{
+	font-family: "Montserrat", sans-serif;
+}
 
 .single-team-member {
     position: relative;
@@ -817,6 +825,9 @@ button:focus{
 .padrinos-box{
 	padding: 70px 0px;
 	background: url(../images/ptn-bg.jpg); 
+}
+.padrinos-box p{
+	font-family: "Montserrat", sans-serif;
 }
 
 .single-team-member {
@@ -963,6 +974,11 @@ button:focus{
 	background: url(../images/ptn-bg.jpg);
 }
 
+.wedding-box p{
+	font-family: "Montserrat", sans-serif;
+}
+
+
 .serviceBox{
     padding: 25px 30px;
     text-align: center;
@@ -1035,7 +1051,7 @@ button:focus{
 
 
 /*------------------------------------------------------------------
-    Events
+    Preguntas
 -------------------------------------------------------------------*/
 
 .events-box{
@@ -1092,6 +1108,9 @@ button:focus{
 .contact-box{
 	padding: 70px 0px;
 	
+}
+.contact-box p{
+	font-family: "Montserrat", sans-serif;
 }
 .contact-block{}
 
