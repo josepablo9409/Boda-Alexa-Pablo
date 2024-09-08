@@ -1108,8 +1108,20 @@ button:focus{
 
 .contact-box{
 	padding: 70px 0px;
-	
+	background: url(../images/ptn-bg.jpg);
+
 }
+.contact-mini-box {
+    position: relative;
+    margin-top: 30px;
+	border: 10px solid #fff;
+	box-shadow: 0 2px 5px rgba(0,0,0,.1);
+	border-radius: 2em;
+	background-color: white;
+	font-size: 20px;
+}
+
+
 .contact-box p{
 	font-family: "Montserrat", sans-serif;
 }
