@@ -793,8 +793,9 @@ button:focus{
 	-o-transition: all 0.25s ease-in-out;
 	transition: all 0.25s ease-in-out;
 }
-
-.single-team-member:hover .family-info{
+/*/.single-team-member:hover .family-info{ **Agregar el hover a la familia
+*/
+.single-team-member .family-info{
 	bottom: 0;
 	opacity: 0.9;
 	visibility: visible;
