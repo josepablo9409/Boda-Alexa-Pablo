@@ -336,7 +336,7 @@ button:focus{
 }
 
 .navbar-toggler{
-	border: 1px solid #afafaf;
+	border: 1px solid #000000;
 	border-radius: 4;
 	margin: 16px 15px;
 	padding: 10px 10px;
@@ -346,7 +346,7 @@ button:focus{
 	transition: all 0.2s linear;
 }
 .navbar-toggler span{
-	background: #afafaf;
+	background: #000000;
 	display: block;
 	width: 25px;
 	height: 1px;
